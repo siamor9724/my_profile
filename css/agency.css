@@ -101,7 +101,9 @@ img::-moz-selection {
   border-color: #e9e5cc52 !important;
   color: white;
 }
-
+.btn-simple:active, .btn-simple:focus {
+  box-shadow: 0 0 0 0.2rem rgba(150, 130, 66, 0.5) !important;
+}
 .btn-primary {
   background-color: #fed136;
   border-color: #fed136;
