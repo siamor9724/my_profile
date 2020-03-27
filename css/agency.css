@@ -91,6 +91,16 @@ img::-moz-selection {
   font-size: 18px;
   padding: 20px 40px;
 }
+.btn-simple {
+  background-color: #e9e5cc52;
+  border-color: #e9e5cc52;
+}
+
+.btn-simple:active, .btn-simple:focus, .btn-simple:hover {
+  background-color: #e9e5cc52 !important;
+  border-color: #e9e5cc52 !important;
+  color: white;
+}
 
 .btn-primary {
   background-color: #fed136;
